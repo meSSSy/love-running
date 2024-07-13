@@ -81,7 +81,9 @@ main {
     text-align: center;
     padding: 20px 0;
     display: flex;
+    flex: 33.33%;
     justify-content: space-evenly;
+    list-style-type: none;
 }
 
 #menu {
