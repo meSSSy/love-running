@@ -77,8 +77,11 @@ main {
 }
 
 /* Footer */
-footer {
-    background-color: orange;
+#social {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 #menu {
