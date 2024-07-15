@@ -173,14 +173,35 @@ main {
     
 }
 
-#reasons h2 {
+#reasons {
     width: 90%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 20px auto;
+}
+
+#reasons h2 {
     font-size: 280%;
     text-align: center;
+    margin-bottom: 20px;
+}   
+
+#benefits-physical > div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#benefits-mental > div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#benefits p {
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
 }
 
 /* Media query: laptops and larger */
